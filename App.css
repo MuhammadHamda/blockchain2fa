@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  padding: 20px;
+  flex-direction: column;
+}
+
+.PaperContainer {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Full width for alignment */
+  max-width: 600px; /* Max width to keep content centered */
+  text-align: left; /* Align text to the left */
+}
+
+.PaperContainer h6 {
+  margin-bottom: 16px;
+}
+
+.PaperContainer button {
+  margin-top: 16px;
+  display: block;
+  margin-left: 0; /* Align buttons to the left */
+}
+
+.PaperContainer .MuiTypography-body1 {
+  margin-top: 8px;
+  word-break: break-all;
+}
+
+.PaperContainer.left {
+  align-self: flex-start; /* Align to the left */
+}
+
+.PaperContainer.right {
+  align-self: flex-end; /* Align to the right */
+}
